@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrenamiento — Real Life</title>
+<meta name="description" content="Gimnasio o calistenia, ajustado a tu nivel y a tu tiempo real. Lo que puedas sostener cada semana, no lo que aguantes dos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<nav id="nav">
+  <div class="wrap nav-in">
+    <a href="index.html" class="brand fd">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="5" fill="#D89B3C"/>
+        <path d="M12 1.5v3M12 19.5v3M22.5 12h-3M4.5 12h-3M19.4 4.6l-2.1 2.1M6.7 17.3l-2.1 2.1M19.4 19.4l-2.1-2.1M6.7 6.7L4.6 4.6" stroke="#4A5D3A" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      Real Life
+    </a>
+    <div class="nav-links">
+      <a href="viva-la-vida.html">Viva la vida</a>
+      <a href="nutricion.html">Nutrición</a>
+      <a href="entrenamiento.html" class="active">Entrenamiento</a>
+      <a href="index.html#empezar" class="btn btn-olive">Empezar</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Abrir menú">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="viva-la-vida.html">Viva la vida</a>
+    <a href="nutricion.html">Nutrición</a>
+    <a href="entrenamiento.html" class="active">Entrenamiento</a>
+    <a href="index.html#empezar" style="color:var(--olive);font-weight:600">Empezar</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero hero-sm" id="top">
+  <div class="sky"></div>
+  <svg class="hills" viewBox="0 0 1440 460" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 290 L190 216 L400 282 L610 200 L820 278 L1030 214 L1240 284 L1440 238 L1440 460 L0 460 Z" fill="#5F3E31"/>
+    <path d="M0 368 L260 320 L520 372 L780 318 L1040 374 L1300 328 L1440 358 L1440 460 L0 460 Z" fill="#3B2A22"/>
+  </svg>
+
+  <video autoplay muted loop playsinline preload="auto"
+         poster="https://images.unsplash.com/photo-1550345332-09e3ac987658?fm=jpg&q=70&w=1600&auto=format&fit=crop">
+    <source src="https://assets.mixkit.co/videos/40274/40274-720.mp4" type="video/mp4">
+    <source src="https://assets.mixkit.co/videos/40274/40274-360.mp4" type="video/mp4">
+  </video>
+
+  <div class="veil"></div>
+
+  <div class="wrap hero-copy">
+    <span class="eyebrow r0">Entrenamiento</span>
+    <h1 class="fd r0">Gimnasio o calistenia. <span class="hl">Tú eliges</span>, esto se adapta.</h1>
+    <p class="r1">Rutinas ajustadas a tu nivel y a tu tiempo real. Lo que puedas sostener cada semana es mejor que lo que aguantes dos.</p>
+    <div class="hero-btns r2">
+      <a href="#caminos" class="btn btn-honey">Ver los dos caminos</a>
+      <a href="index.html#empezar" class="btn btn-ghost">Empezar</a>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">Baja<span class="line"></span></div>
+</section>
+
+<!-- CÓMO EMPEZAMOS -->
+<section class="info-section">
+  <div class="wrap">
+    <div class="split">
+      <div class="split-text reveal">
+        <span class="kicker">Punto de partida</span>
+        <h2 class="fd">Cómo empezamos</h2>
+        <p class="sub">
+          Tu nivel actual, cuánto tiempo tienes de verdad a la semana, y dónde vas a entrenar: gimnasio, casa o parque.
+        </p>
+        <p class="sub">
+          La rutina se construye a partir de ahí, no al revés. Un plan de cinco días no sirve de nada si solo tienes tres.
+        </p>
+      </div>
+      <div class="split-media reveal d1">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?fm=jpg&q=70&w=1200&auto=format&fit=crop">
+          <source src="https://assets.mixkit.co/videos/5054/5054-720.mp4" type="video/mp4">
+          <source src="https://assets.mixkit.co/videos/5054/5054-360.mp4" type="video/mp4">
+        </video>
+        <span class="badge">Al aire libre, sin excusas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BANDA -->
+<section class="strip">
+  <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?fm=jpg&q=78&w=1800&auto=format&fit=crop"
+       alt="Siluetas corriendo al atardecer" loading="lazy" onerror="this.remove()">
+  <span class="shade"></span>
+  <div class="strip-txt">
+    <p class="fd">El mejor entrenamiento es el que sigues en la semana doce.</p>
+    <small>Constancia por encima de intensidad</small>
+  </div>
+</section>
+
+<!-- LOS DOS CAMINOS -->
+<section class="info-section band" id="caminos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Dos caminos</span>
+      <h2 class="fd">Gimnasio o calistenia</h2>
+    </div>
+    <div class="lead-box reveal d1">
+      <p>
+        Si te gusta el hierro, se entrena con pesas y máquinas. Si no te gusta el gimnasio, o no tienes uno cerca, se entrena igual con <span class="emph">calistenia</span>: tu propio peso, una barra de dominadas y el suelo. Ningún camino es superior al otro. <span class="hl">El que sigues de verdad es el que funciona.</span>
+      </p>
+    </div>
+
+    <div class="tabs reveal d1" style="text-align:center">
+      <div class="tabs-bar" role="tablist" aria-label="Elige tu camino">
+        <button class="tab-btn" data-tab="tab-gym" role="tab" aria-selected="true" aria-controls="tab-gym">Gimnasio</button>
+        <button class="tab-btn" data-tab="tab-cal" role="tab" aria-selected="false" aria-controls="tab-cal">Calistenia</button>
+      </div>
+
+      <div class="tab-panel show" id="tab-gym" role="tabpanel" style="text-align:left">
+        <div class="split">
+          <div class="split-text">
+            <h3 class="fd panel-title">Hierro y progresión de carga</h3>
+            <p class="sub">
+              Pesas libres y máquinas, con progresión de carga controlada. Útil si te gusta el entorno y tienes acceso cómodo a uno. Sabes exactamente cuánto has subido porque está escrito en el disco.
+            </p>
+            <div class="bars">
+              <div class="bar-row">
+                <div class="bar-top"><span class="bar-name">Progresas subiendo kilos</span><span class="bar-val">medible</span></div>
+                <div class="bar-track"><div class="bar-fill olive" data-w="88%"></div></div>
+              </div>
+              <div class="bar-row">
+                <div class="bar-top"><span class="bar-name">Necesitas desplazarte</span><span class="bar-val">y pagar cuota</span></div>
+                <div class="bar-track"><div class="bar-fill clay" data-w="70%"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="split-media">
+            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?fm=jpg&q=78&w=1200&auto=format&fit=crop"
+                 alt="Sala de gimnasio con máquinas" loading="lazy" onerror="this.remove()">
+            <span class="badge">Gimnasio</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="tab-cal" role="tabpanel" style="text-align:left">
+        <div class="split">
+          <div class="split-text">
+            <h3 class="fd panel-title">Tu peso, el suelo y una barra</h3>
+            <p class="sub">
+              Peso corporal, en casa o en el parque, sin cuota mensual ni desplazamiento. La progresión va por dificultad del ejercicio, no por kilos en la barra: de rodillas al suelo, del suelo a una mano.
+            </p>
+            <div class="bars">
+              <div class="bar-row">
+                <div class="bar-top"><span class="bar-name">Progresas por dificultad</span><span class="bar-val">técnica</span></div>
+                <div class="bar-track"><div class="bar-fill olive" data-w="88%"></div></div>
+              </div>
+              <div class="bar-row">
+                <div class="bar-top"><span class="bar-name">Material necesario</span><span class="bar-val">casi ninguno</span></div>
+                <div class="bar-track"><div class="bar-fill honey" data-w="18%"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="split-media">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?fm=jpg&q=78&w=1200&auto=format&fit=crop"
+                 alt="Dominadas en una barra" loading="lazy" onerror="this.remove()">
+            <span class="badge">Calistenia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat reveal"><div class="num"><span data-count="2">0</span></div><div class="lbl">Caminos posibles: hierro o tu propio peso</div></div>
+      <div class="stat reveal d1"><div class="num"><span data-count="3">0</span></div><div class="lbl">Sitios donde entrenar: gimnasio, casa o parque</div></div>
+      <div class="stat reveal d2"><div class="num"><span data-count="0">0</span><span class="u">€</span></div><div class="lbl">De cuota mensual si eliges calistenia</div></div>
+      <div class="stat reveal d3"><div class="num"><span data-count="0">0</span></div><div class="lbl">Planes cerrados de doce semanas</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ESTRUCTURA -->
+<section class="info-section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">La rutina</span>
+      <h2 class="fd">Cómo se estructura tu rutina</h2>
+    </div>
+    <p class="lead reveal d1">
+      Frecuencia semanal según tu tiempo real, progresión gradual para no lesionarte por ir demasiado rápido, y ejecución explicada con detalle: no basta con saber qué ejercicio toca, hay que saber hacerlo bien.
+    </p>
+
+    <div class="steps">
+      <div class="step reveal"><span class="n fd">1</span><h3 class="fd">Frecuencia</h3><p>Los días que tienes de verdad, no los que te gustaría tener.</p></div>
+      <div class="step reveal d1"><span class="n fd">2</span><h3 class="fd">Progresión</h3><p>Gradual. Subir demasiado rápido es la vía más corta a parar tres semanas.</p></div>
+      <div class="step reveal d2"><span class="n fd">3</span><h3 class="fd">Ejecución</h3><p>Explicada con detalle. Saber qué toca no es lo mismo que saber hacerlo.</p></div>
+      <div class="step reveal d3"><span class="n fd">4</span><h3 class="fd">Revisión</h3><p>Según cómo responde tu cuerpo y cómo ha ido tu semana de verdad.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section class="info-section band">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Con o sin material</span>
+      <h2 class="fd">Entrenar es lo que hagas, no dónde lo hagas</h2>
+    </div>
+    <div class="mosaic reveal d1">
+      <figure><img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?fm=jpg&q=78&w=1200&auto=format&fit=crop" alt="Entrenando con máquina de poleas" loading="lazy" onerror="this.remove()"><figcaption>Gimnasio</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?fm=jpg&q=78&w=800&auto=format&fit=crop" alt="Flexiones con mancuerna" loading="lazy" onerror="this.remove()"><figcaption>En casa</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1550345332-09e3ac987658?fm=jpg&q=78&w=800&auto=format&fit=crop" alt="Entrenamiento con cuerda de batida" loading="lazy" onerror="this.remove()"><figcaption>Intensidad</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?fm=jpg&q=78&w=1000&auto=format&fit=crop" alt="Dominadas al aire libre" loading="lazy" onerror="this.remove()"><figcaption>En el parque</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO SE AJUSTA -->
+<section class="info-section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Seguimiento</span>
+      <h2 class="fd">Cómo se ajusta</h2>
+    </div>
+    <div class="lead-box reveal d1">
+      <p>
+        No es un plan cerrado de doce semanas. Se revisa según cómo responde tu cuerpo, cómo ha ido tu semana y cuánto has podido sostener de verdad.
+      </p>
+      <p>
+        Si una semana ha sido imposible, <span class="hl">se ajusta, no se abandona</span>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-strip">
+  <div class="wrap">
+    <h2 class="fd">Entrenamiento, nutrición y hábitos, a la vez.</h2>
+    <a href="index.html#empezar" class="btn btn-honey">Empezar</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-in">
+    <span class="brand fd">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="5" fill="#D89B3C"/>
+        <path d="M12 1.5v3M12 19.5v3M22.5 12h-3M4.5 12h-3M19.4 4.6l-2.1 2.1M6.7 17.3l-2.1 2.1M19.4 19.4l-2.1-2.1M6.7 6.7L4.6 4.6" stroke="#4A5D3A" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      Real Life
+    </span>
+    <p>© 2026</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

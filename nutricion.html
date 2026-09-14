@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nutrición — Real Life</title>
+<meta name="description" content="Comida real, ajustada a tu día real. Sin contar calorías de forma obsesiva y sin prohibir nada de por vida.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<nav id="nav">
+  <div class="wrap nav-in">
+    <a href="index.html" class="brand fd">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="5" fill="#D89B3C"/>
+        <path d="M12 1.5v3M12 19.5v3M22.5 12h-3M4.5 12h-3M19.4 4.6l-2.1 2.1M6.7 17.3l-2.1 2.1M19.4 19.4l-2.1-2.1M6.7 6.7L4.6 4.6" stroke="#4A5D3A" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      Real Life
+    </a>
+    <div class="nav-links">
+      <a href="viva-la-vida.html">Viva la vida</a>
+      <a href="nutricion.html" class="active">Nutrición</a>
+      <a href="entrenamiento.html">Entrenamiento</a>
+      <a href="index.html#empezar" class="btn btn-olive">Empezar</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Abrir menú">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="viva-la-vida.html">Viva la vida</a>
+    <a href="nutricion.html" class="active">Nutrición</a>
+    <a href="entrenamiento.html">Entrenamiento</a>
+    <a href="index.html#empezar" style="color:var(--olive);font-weight:600">Empezar</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero hero-sm" id="top">
+  <div class="sky"></div>
+  <svg class="hills" viewBox="0 0 1440 460" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 290 L190 216 L400 282 L610 200 L820 278 L1030 214 L1240 284 L1440 238 L1440 460 L0 460 Z" fill="#5F3E31"/>
+    <path d="M0 368 L260 320 L520 372 L780 318 L1040 374 L1300 328 L1440 358 L1440 460 L0 460 Z" fill="#3B2A22"/>
+  </svg>
+
+  <video autoplay muted loop playsinline preload="auto"
+         poster="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?fm=jpg&q=70&w=1600&auto=format&fit=crop">
+    <source src="https://assets.mixkit.co/videos/49231/49231-720.mp4" type="video/mp4">
+    <source src="https://assets.mixkit.co/videos/49231/49231-360.mp4" type="video/mp4">
+  </video>
+
+  <div class="veil"></div>
+
+  <div class="wrap hero-copy">
+    <span class="eyebrow r0">Nutrición</span>
+    <h1 class="fd r0">Comer bien, no <span class="hl">comer perfecto</span>.</h1>
+    <p class="r1">Comida que se reconoce, ajustada a tu día real. Sin contar calorías de forma obsesiva. Sin prohibir nada de por vida.</p>
+    <div class="hero-btns r2">
+      <a href="#plan" class="btn btn-honey">Ver qué incluye</a>
+      <a href="index.html#empezar" class="btn btn-ghost">Empezar</a>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">Baja<span class="line"></span></div>
+</section>
+
+<!-- CÓMO EMPEZAMOS -->
+<section class="info-section">
+  <div class="wrap">
+    <div class="split">
+      <div class="split-text reveal">
+        <span class="kicker">Punto de partida</span>
+        <h2 class="fd">Cómo empezamos</h2>
+        <p class="sub">
+          Antes de hablar de comida, hablamos de tu día: qué horarios tienes, cuánto cocinas realmente, qué presupuesto manejas y qué has probado antes que no te funcionó.
+        </p>
+        <p class="sub">
+          Un plan que solo funciona con salmón y aguacate a diario no sirve si no es tu vida. Sirve el que puedas sostener con lo que ya tienes cerca.
+        </p>
+      </div>
+      <div class="split-media reveal d1">
+        <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?fm=jpg&q=78&w=1200&auto=format&fit=crop"
+             alt="Verduras frescas sobre una tabla de cortar" loading="lazy" onerror="this.remove()">
+        <span class="badge">Comida de verdad</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BANDA -->
+<section class="strip">
+  <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?fm=jpg&q=78&w=1800&auto=format&fit=crop"
+       alt="Mesa llena de comida real vista desde arriba" loading="lazy" onerror="this.remove()">
+  <span class="shade"></span>
+  <div class="strip-txt">
+    <p class="fd">La mejor dieta es la que sigues sin acordarte de que estás a dieta.</p>
+    <small>Sostenible antes que perfecta</small>
+  </div>
+</section>
+
+<!-- QUÉ INCLUYE -->
+<section class="info-section band" id="plan">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Tu plan</span>
+      <h2 class="fd">Qué incluye tu plan</h2>
+    </div>
+    <div class="lead-box reveal d1">
+      <p>
+        Comidas ajustadas a tus calorías y tus macronutrientes <span class="emph">reales</span>, no una plantilla genérica. Recetas con ingredientes que puedes encontrar sin buscar tres supermercados distintos. Lista de la compra hecha, para que no tengas que pensarlo cada domingo.
+      </p>
+    </div>
+
+    <div class="grid">
+      <article class="pcard reveal d1">
+        <div class="pimg"><img src="https://images.unsplash.com/photo-1543353071-873f17a7a088?fm=jpg&q=78&w=1200&auto=format&fit=crop" alt="Varios platos equilibrados vistos desde arriba" loading="lazy" onerror="this.remove()"></div>
+        <div class="pbody">
+          <h3 class="fd">A tu medida</h3>
+          <p>Calorías y macros calculados sobre tu peso, tu actividad y tu objetivo. No el mismo número para todo el mundo.</p>
+        </div>
+      </article>
+
+      <article class="pcard reveal d2">
+        <div class="pimg"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?fm=jpg&q=78&w=1200&auto=format&fit=crop" alt="Plato completo listo para comer" loading="lazy" onerror="this.remove()"></div>
+        <div class="pbody">
+          <h3 class="fd">Con margen real</h3>
+          <p>Nada de prohibir para siempre. Se trabaja con lo que comes el 90% del tiempo, no con la excepción del sábado.</p>
+        </div>
+      </article>
+
+      <article class="pcard reveal d1">
+        <div class="pimg"><img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?fm=jpg&q=78&w=1200&auto=format&fit=crop" alt="Crema de verduras casera" loading="lazy" onerror="this.remove()"></div>
+        <div class="pbody">
+          <h3 class="fd">Fácil de seguir</h3>
+          <p>Recetas simples, ingredientes de supermercado normal. Si no lo puedes sostener un martes cualquiera, no sirve.</p>
+        </div>
+      </article>
+
+      <article class="pcard reveal d2">
+        <div class="pimg"><img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?fm=jpg&q=78&w=1200&auto=format&fit=crop" alt="La compra de la semana" loading="lazy" onerror="this.remove()"></div>
+        <div class="pbody">
+          <h3 class="fd">Lista de la compra</h3>
+          <p>Resuelta cada semana. Menos decisiones el día a día, menos motivos para saltártelo.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="stats">
+      <div class="stat reveal"><div class="num"><span data-count="90" data-suffix="%">0%</span></div><div class="lbl">Del tiempo, comida real. El resto es margen, no fracaso.</div></div>
+      <div class="stat reveal d1"><div class="num"><span data-count="0">0</span></div><div class="lbl">Alimentos prohibidos de por vida</div></div>
+      <div class="stat reveal d2"><div class="num">2–4</div><div class="lbl">Semanas entre cada revisión del plan</div></div>
+      <div class="stat reveal d3"><div class="num"><span data-count="1">0</span></div><div class="lbl">Lista de la compra por semana, ya resuelta</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EL PLATO -->
+<section class="info-section">
+  <div class="wrap">
+    <div class="split flip">
+      <div class="split-text reveal">
+        <span class="kicker">Sin pesar nada</span>
+        <h2 class="fd">El método del plato</h2>
+        <p class="sub">
+          Cuando no te apetece medir, sirve mirar el plato. La mitad, verdura o fruta. Un cuarto, proteína. Un cuarto, hidratos. Es una guía visual, no una regla exacta: te acerca lo suficiente sin sacar la báscula de cocina.
+        </p>
+        <div class="bars">
+          <div class="bar-row">
+            <div class="bar-top"><span class="bar-name">Verdura y fruta</span><span class="bar-val">la mitad</span></div>
+            <div class="bar-track"><div class="bar-fill olive" data-w="50%"></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-top"><span class="bar-name">Proteína</span><span class="bar-val">un cuarto</span></div>
+            <div class="bar-track"><div class="bar-fill honey" data-w="25%"></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-top"><span class="bar-name">Hidratos</span><span class="bar-val">un cuarto</span></div>
+            <div class="bar-track"><div class="bar-fill clay" data-w="25%"></div></div>
+          </div>
+        </div>
+        <p class="bars-note">Orientativo. Tu plan sí lleva números concretos: esto es para el día que comes fuera.</p>
+      </div>
+      <div class="split-media reveal d1">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="https://images.unsplash.com/photo-1466637574441-749b8f19452f?fm=jpg&q=70&w=1200&auto=format&fit=crop">
+          <source src="https://assets.mixkit.co/videos/9316/9316-720.mp4" type="video/mp4">
+          <source src="https://assets.mixkit.co/videos/9316/9316-360.mp4" type="video/mp4">
+        </video>
+        <span class="badge">Cocinar en casa</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO SE AJUSTA -->
+<section class="info-section band">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Seguimiento</span>
+      <h2 class="fd">Cómo se ajusta</h2>
+    </div>
+    <p class="lead reveal d1">
+      No es un PDF que te mandan una vez y ya. Se revisa cada 2 a 4 semanas según cómo responde tu cuerpo, tu semana y tu energía real, no según lo que dice la báscula el primer día.
+    </p>
+
+    <div class="steps">
+      <div class="step reveal"><span class="n fd">1</span><h3 class="fd">Hablamos de tu día</h3><p>Horarios, presupuesto, cuánto cocinas de verdad y qué ya has probado.</p></div>
+      <div class="step reveal d1"><span class="n fd">2</span><h3 class="fd">Se monta el plan</h3><p>Calorías, macros, recetas y lista de la compra, hechos sobre tus números.</p></div>
+      <div class="step reveal d2"><span class="n fd">3</span><h3 class="fd">Lo pruebas</h3><p>Dos, tres, cuatro semanas de vida normal. Con sus imprevistos incluidos.</p></div>
+      <div class="step reveal d3"><span class="n fd">4</span><h3 class="fd">Se ajusta</h3><p>Se corrige lo que no encajó. No se abandona: se adapta y sigue.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section class="info-section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Comida que se reconoce</span>
+      <h2 class="fd">Sin polvos, sin sobres, sin dietas milagro</h2>
+    </div>
+    <div class="mosaic reveal d1">
+      <figure><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?fm=jpg&q=78&w=1200&auto=format&fit=crop" alt="Verduras y legumbres" loading="lazy" onerror="this.remove()"><figcaption>Verdura</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?fm=jpg&q=78&w=800&auto=format&fit=crop" alt="Bowl equilibrado" loading="lazy" onerror="this.remove()"><figcaption>Plato completo</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?fm=jpg&q=78&w=800&auto=format&fit=crop" alt="Fruta y verdura de temporada" loading="lazy" onerror="this.remove()"><figcaption>Variedad</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=jpg&q=78&w=1000&auto=format&fit=crop" alt="Ensalada fresca" loading="lazy" onerror="this.remove()"><figcaption>Sin complicarse</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- LÍMITE -->
+<section class="info-section band">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Honestidad</span>
+      <h2 class="fd">Dónde está el límite</h2>
+    </div>
+    <div class="lead-box reveal d1">
+      <p>
+        Aquí se trabajan pautas generales de alimentación saludable y educación nutricional para gente sana con objetivos de rendimiento y bienestar.
+      </p>
+      <p>
+        Lo que <span class="emph">no</span> se hace es diagnóstico ni tratamiento de patologías o trastornos alimentarios: para eso, la persona indicada es un <span class="hl">dietista-nutricionista colegiado</span>, y si hace falta, se deriva sin rodeos.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-strip">
+  <div class="wrap">
+    <h2 class="fd">Entrenamiento, nutrición y hábitos, a la vez.</h2>
+    <a href="index.html#empezar" class="btn btn-honey">Empezar</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-in">
+    <span class="brand fd">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="5" fill="#D89B3C"/>
+        <path d="M12 1.5v3M12 19.5v3M22.5 12h-3M4.5 12h-3M19.4 4.6l-2.1 2.1M6.7 17.3l-2.1 2.1M19.4 19.4l-2.1-2.1M6.7 6.7L4.6 4.6" stroke="#4A5D3A" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      Real Life
+    </span>
+    <p>© 2026</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
